@@ -2,7 +2,8 @@
 
 [![PyPI version](https://badge.fury.io/py/django-unfold-admin-list-filter-dropdown.svg)](https://badge.fury.io/py/django-unfold-admin-list-filter-dropdown)
 
-This version is compatible with [django-unfold](https://github.com/unfoldadmin/django-unfold).
+> [!NOTE]  
+> This version is compatible with [django-unfold](https://github.com/unfoldadmin/django-unfold).
 
 A Django admin filter implementation that renders as a dropdown.
 
