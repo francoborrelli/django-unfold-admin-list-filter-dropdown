@@ -10,8 +10,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 description = 'Use dropdowns in Django admin list filter'
 long_description = description
-if os.path.exists('README.txt'):
-    long_description = open('README.txt').read()
+if os.path.exists('README.md'):
+    long_description = open('README.md').read()
 
 setup(
     name='django-unfold-admin-list-filter-dropdown',
