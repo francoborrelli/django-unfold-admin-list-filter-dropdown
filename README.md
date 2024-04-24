@@ -15,7 +15,7 @@ filtering sidebar to avoid this problem.
 Install:
 
 ```sh
-pip install django-admin-list-filter-dropdown
+pip install django-unfold-admin-list-filter-dropdown
 ```
 
 Enable in `settings.py`:
@@ -23,7 +23,7 @@ Enable in `settings.py`:
 ```py
 INSTALLED_APPS = (
     ...
-    'django_admin_listfilter_dropdown',
+    'django_unfold_admin_listfilter_dropdown',
     ...
 )
 
@@ -50,7 +50,7 @@ Example of a custom filter that uses the provided template:
 
 ```py
 class CustomFilter(SimpleListFilter):
-    template = 'django_admin_listfilter_dropdown/dropdown_filter.html'
+    template = 'django_unfold_admin_listfilter_dropdown/dropdown_filter.html'
 
     def lookups(self, request, model_admin):
         ...
