@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/django_unfold_admin_listfilter_dropdown
+      url: https://pypi.org/p/django-unfold-admin-list-filter-dropdown
     permissions:
       id-token: write
     steps:
