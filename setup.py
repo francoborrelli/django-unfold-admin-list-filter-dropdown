@@ -9,13 +9,6 @@ VERSION = '1.0.0'
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 description = 'Use dropdowns in Django admin list filter'
-long_description = description
-
-try:
-   import pypandoc
-   long_description = pypandoc.convert_file('README.md', 'rst')
-except(IOError, ImportError):
-   long_description = open('README.md').read()
 
 setup(
     name='django-unfold-admin-list-filter-dropdown',
@@ -24,7 +17,8 @@ setup(
     include_package_data=True,
     license='MIT License',
     description=description,
-    long_description=long_description,
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdown',
     download_url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdow/archive/%s.zip' % VERSION,
     author='Franco Borrelli',
