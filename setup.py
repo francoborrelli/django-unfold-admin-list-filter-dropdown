@@ -14,18 +14,18 @@ if os.path.exists('README.txt'):
     long_description = open('README.txt').read()
 
 setup(
-    name='django-admin-list-filter-dropdown',
+    name='django-unfold-admin-list-filter-dropdown',
     version=VERSION,
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',
     description=description,
     long_description=long_description,
-    url='https://github.com/mrts/django-admin-list-filter-dropdown',
-    download_url='https://github.com/mrts/django-admin-list-filter-dropdown/archive/%s.zip' % VERSION,
-    author='Mart Sõmermaa',
-    author_email="mrts.pydev@gmail.com",
-    keywords=['django', 'admin', 'filter', 'dropdown'],
+    url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdown',
+    download_url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdow/archive/%s.zip' % VERSION,
+    author='Franco Borrelli',
+    author_email="francoborrelli96@gmail.com",
+    keywords=['django', 'admin', 'filter', 'dropdown', 'unfold', 'django-unfold'],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',

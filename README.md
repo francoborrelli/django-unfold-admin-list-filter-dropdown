@@ -56,14 +56,3 @@ class CustomFilter(SimpleListFilter):
     def queryset(self, request, queryset):
         ...
 ```
-
-# Example
-
-Here's what it looks like:
-
-![Screenshot of dropdown admin filter](https://raw.githubusercontent.com/mrts/django-admin-list-filter-dropdown/master/docs/list-filter-dropdown.png)
-
-# Credits
-
-Based on [this StackOverflow question](http://stackoverflow.com/a/20900314/258772) and
-[code from FeinCMS](https://github.com/feincms/feincms/blob/master/feincms/templates/admin/filter.html).
