@@ -1,5 +1,7 @@
 # django-admin-list-filter-dropdown
 
+This version is compatible with [django-unfold](https://github.com/unfoldadmin/django-unfold).
+
 A Django admin filter implementation that renders as a dropdown.
 
 If you have more than ten values for a field that you want to filter by in
