@@ -3,7 +3,7 @@
 import os
 from setuptools import find_packages, setup
 
-VERSION = '1.0.3'
+VERSION = '1.0.0'
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -24,7 +24,6 @@ setup(
     include_package_data=True,
     license='MIT License',
     description=description,
-    long_description_content_type="text/markdown",
     long_description=long_description,
     url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdown',
     download_url='https://github.com/francoborrelli/django-unfold-admin-list-filter-dropdow/archive/%s.zip' % VERSION,
