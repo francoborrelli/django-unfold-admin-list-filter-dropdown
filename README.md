@@ -1,4 +1,4 @@
-# django-admin-list-filter-dropdown
+# django-unfold_admin-list-filter-dropdown
 
 This version is compatible with [django-unfold](https://github.com/unfoldadmin/django-unfold).
 
